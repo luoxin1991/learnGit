@@ -42,9 +42,19 @@ git  diff readme.txt
 git log
 ```
 
-### 8 版本回退
+### 8 版本回退 （git reset）
 
+```shell
+git reset --hard 版本号（前四位就行）
+```
 
+### 9 查看被删除的提交的版本版本号（git reflog）
+
+```shell
+git reflog
+```
+
+### 10 撤销修改 （git checkout -- file）
 
 
 

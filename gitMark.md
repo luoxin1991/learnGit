@@ -68,5 +68,22 @@ git checkout -- gitMark.md
 git remote add origin http://xxxx
 ```
 
+### 13 从远程仓库克隆 (git clone)
+
+```shell
+git clone https://xxx
+```
+
+### 14 分支管理
+
+```shell
+查看分支：git branch
+创建分支：git branch <branch name>
+切换分支：git checkout <branch name>
+创建+切换分支：git checkout -b <branch name>
+合并某分支到当前分支：git merge <branch name>
+删除分支：git branch -d <branch name>
+```
+
 
 

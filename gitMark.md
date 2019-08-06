@@ -54,7 +54,19 @@ git reset --hard 版本号（前四位就行）
 git reflog
 ```
 
-### 10 撤销修改 （git checkout -- file）
+### 10 撤销修改 （git checkout -- ）
+
+```shell
+git checkout -- gitMark.md
+```
+
+### 11 删除文件 （git rm）
+
+### 12 添加远程仓库 （git remote add）
+
+```shell
+git remote add origin http://xxxx
+```
 
 
 

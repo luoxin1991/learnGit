@@ -21,7 +21,7 @@ git add readme.txt #添加指定文件
 ### 4 提交文件 (git commit )
 
 ```shell
-git commit -m 'add a  readme file'
+git commit -m 'add a readme file'
 ```
 
 ### 5 查看仓库提交状态 (git status)
@@ -45,10 +45,11 @@ git log
 ### 8 版本回退 （git reset）
 
 ```shell
+#一般先用 git log 查看提交日志，得到提交版本信息
 git reset --hard 版本号（前四位就行）
 ```
 
-### 9 查看被删除的提交的版本版本号（git reflog）
+### 9 查看被删除的提交的版本号（git reflog）
 
 ```shell
 git reflog

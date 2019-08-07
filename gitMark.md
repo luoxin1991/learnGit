@@ -40,6 +40,8 @@ git  diff readme.txt
 
 ```shell
 git log
+#以图形形式展开提交日志
+git log --graph
 ```
 
 ### 8 版本回退 （git reset）
@@ -98,5 +100,15 @@ git stash pop
 git stash list
 ```
 
+### 16 忽略某些文件（.gitignore）
 
+```shell
+#在根目录下添加.gitignore文件可以忽略一些上传文件
+```
+
+### 17 查看谁在什么时间修改了文件 （git blame）
+
+```shell
+git blame <file name>
+```
 

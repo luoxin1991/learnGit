@@ -86,3 +86,16 @@ git clone https://xxx
 删除分支：git branch -d <branch name>
 ```
 
+### 15 bug管理管理 (git stash)
+
+```shell
+#当有改动时，为了修复其他代码bug，可以使用git stash把改动隐藏起来
+git stash
+#使用git stash pop可以恢复现场
+git stash pop
+#使用git stash list 查看隐藏区信息
+git stash list
+```
+
+
+

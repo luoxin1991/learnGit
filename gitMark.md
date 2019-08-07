@@ -86,6 +86,3 @@ git clone https://xxx
 删除分支：git branch -d <branch name>
 ```
 
-
-
-this is master.

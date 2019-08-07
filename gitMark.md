@@ -84,6 +84,7 @@ git clone https://xxx
 创建+切换分支：git checkout -b <branch name>
 合并某分支到当前分支：git merge <branch name>
 删除分支：git branch -d <branch name>
+删除一个没有合并的分支：git branch -D <branch name>
 ```
 
 ### 15 bug管理管理 (git stash)

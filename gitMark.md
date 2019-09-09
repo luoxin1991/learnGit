@@ -113,8 +113,6 @@ git blame <file name>
 ```
 
 
-<<<<<<< HEAD
-
 //修改罗鑫1990
 
 
